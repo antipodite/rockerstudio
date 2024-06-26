@@ -89,8 +89,8 @@ RUN echo "docker:pass" | chpasswd
 RUN rstudio-server start # does'nt seem to work...
 
 ## Install R packages I use frequently:
-COPY install-packages.R /home/docker/
-RUN Rscript /home/docker/install-packages.R
+COPY install-packages.R /
+RUN Rscript /install-packages.R
 
 ENV DEFAULT_USER=docker
         
