@@ -16,7 +16,14 @@ install.packages(c(
     'ape',
     'phytools',
     'caper',
-    'BiocManager'
+    'BiocManager',
+    "DescTools",
+    "ggforce",
+    "klaR",
+    "lingtypology",
+    "testit",
+    "vegan",
+    "xtable"
 ))
 ## Bioconductor
 BiocManager::install(c("ggtree", "treeio"))
